@@ -7,7 +7,7 @@
     <h2>Learning Goals</h2>
   </summary>
 
-This exercise allows you to practice and apply the concepts and techniques taught in class.
+This exercise allows you to practice and apply the concepts and techniques taught in className.
 
 Upon completion of this exercise, you will be able to:
 
@@ -62,10 +62,9 @@ npm run dev
 
 <br>
 
-##  Test Your Code
+## Test Your Code
 
 This lab is equipped with unit tests to provide automated feedback on your progress and help you understand whether your code is working as expected. If you want to check the tests, they are located in the `src/test` folder.
-
 
 ### Iterations and Test Results
 
@@ -77,11 +76,11 @@ During an iteration, if your code seems to work as expected but some tests don't
 
 1. To execute the tests, run the following command in the terminal:
 
-  ```shell
-  npm run test
-  ```
+```shell
+npm run test
+```
 
-2. The above command will execute the tests and open the `@vitest/ui` Test Reporter in the browser. 
+2. The above command will execute the tests and open the `@vitest/ui` Test Reporter in the browser.
 
 3. To see the test results, **open** [http://127.0.0.1:51204/\_\_vitest\_\_](http://127.0.0.1:51204/__vitest__) in your browser.
 
@@ -150,23 +149,23 @@ Create the following components in their respective folders:
 
 **Layout and Styling**
 
-We have included examples of each page in the `examples`. The example code uses Bootstrap classes for layout and styling.
+We have included examples of each page in the `examples`. The example code uses Bootstrap classNamees for layout and styling.
 
 If you decide to copy the code provided in the `examples` folder, keep the following in mind:
 
-  - In React, the HTML attribute `class` is written as `className`
+- In React, the HTML attribute `className` is written as `classNameName`
 
-  - For inline CSS, use a JavaScript object and name each CSS property in camelCase (more details [here](https://react.dev/reference/react-dom/components/common#applying-css-styles)). For example, if you have a `p` element with the `style` attribute:
+- For inline CSS, use a JavaScript object and name each CSS property in camelCase (more details [here](https://react.dev/reference/react-dom/components/common#applying-css-styles)). For example, if you have a `p` element with the `style` attribute:
 
-    ```html
-    <p style="font-size: 20px; font-weight: bold">Example</p>
-    ```
+  ```html
+  <p style="font-size: 20px; font-weight: bold">Example</p>
+  ```
 
-    In React and JSX, you would write it as:
+  In React and JSX, you would write it as:
 
-    ```jsx
-    <p style={{ fontSize: "20px", fontWeight: "bold" }}>Example</p>
-    ```
+  ```jsx
+  <p style={{ fontSize: "20px", fontWeight: "bold" }}>Example</p>
+  ```
 
 <br>
 
@@ -175,7 +174,6 @@ If you decide to copy the code provided in the `examples` folder, keep the follo
   <summary><b>See Expected Result</b></summary>
 
 <br>
-
 
 **`HomePage`**:
 
@@ -186,8 +184,8 @@ If you decide to copy the code provided in the `examples` folder, keep the follo
 **`CountryDetailsPage`**: (Structure and content copied from the `examples` folder)
 
 ![styled country details page component](https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/m3/lab-wikicountries/lab-react-wiki-countries-country-details-page-static.png)
-  <sub> Note: Structure and content copied from the "examples" folder</sub>
-  <br>
+<sub> Note: Structure and content copied from the "examples" folder</sub>
+<br>
 
 </details>
 
@@ -391,7 +389,7 @@ Each border should be a clickable `Link`. To allow users to navigate to a border
 
 If you are stuck in your code and don't know how to solve the problem or where to start, you should take a step back and try to form a clear question about the specific issue you are facing. This will help you narrow down the problem and come up with potential solutions.
 
-For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources.
+For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classNamemates or online resources.
 
 Once you have a clear understanding of the problem, you will be able to start working toward the solution.
 
